@@ -1,0 +1,49 @@
+.nav_page_list{
+    list-style-type: none; /*Elimina los puntos*/
+    padding: 0;
+}
+
+.nav_page_list > li{
+    display: inline-block; /*Para que se muestren en una misma linea centrados*/
+    margin-right: 20px; /* Espacio entre elementos de la lista */
+    margin-top: 10px; /*Ajustarlos a su posición*/
+}
+
+.cabecera {
+    text-align: center; /* Centrar horizontalmente el contenido de .cabecera */
+    /*border: 2px solid red;*/
+}
+
+.header_link{
+    text-decoration: none;
+}
+
+.header_link:link {
+    color:grey; /*Color de un link sin pulsar*/
+    
+}
+
+.header_link:visited{
+    color:grey; /*Color de un link pulsado*/
+}
+
+a > h2 {
+    color: black;
+}
+
+header{
+    background-color: white;
+    position: fixed;
+    top: 0; /* Colocar el encabezado en la parte superior */
+    width: 100%; /* Ancho completo del encabezado */
+}
+
+/* Lo anterior a esto es todo de header*/
+.img_foot_logo{
+    width: 50px;
+    height: auto;
+}
+
+footer{
+    background-color: blueviolet;
+}
