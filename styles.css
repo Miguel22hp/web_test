@@ -1,12 +1,22 @@
+body{
+    background-color: rgb(224, 220, 213);
+}
+
+.space_head_item_id{
+    padding-top: 30px; /*Para que me meta 30px por encima, para que cuando se enlaza desde la barra de navegación, al pulsar, se vea el título entero de la sección*/
+}
+
+/*Empieza el css para el header*/
 .nav_page_list{
     list-style-type: none; /*Elimina los puntos*/
     padding: 0;
+    margin-top: auto;
 }
 
 .nav_page_list > li{
     display: inline-block; /*Para que se muestren en una misma linea centrados*/
     margin-right: 20px; /* Espacio entre elementos de la lista */
-    margin-top: 10px; /*Ajustarlos a su posición*/
+    margin-top: 0; /*Ajustarlos a su posición*/
 }
 
 .cabecera {
@@ -16,6 +26,8 @@
 
 .header_link{
     text-decoration: none;
+    font-size: 16px; /* Ajusta el tamaño del texto de los enlaces */
+    scroll-margin-top: -50px; /* Establece un margen superior negativo de 50px */
 }
 
 .header_link:link {
@@ -28,22 +40,39 @@
 }
 
 a > h2 {
-    color: black;
+    color: rgb(0, 0, 0);
+    font-size: 20px; /* Ajusta el tamaño del texto de las etiquetas h2 */
 }
 
 header{
-    background-color: white;
     position: fixed;
     top: 0; /* Colocar el encabezado en la parte superior */
     width: 100%; /* Ancho completo del encabezado */
+    background-color: white;
+    height: 50px;
+    left:0; 
 }
 
+
 /* Lo anterior a esto es todo de header*/
+
+
+
+/* Empieza el footer*/
 .img_foot_logo{
+    width: 40px;
+    height: auto;
+}
+
+.img_foot_logo_2{
     width: 50px;
     height: auto;
 }
 
 footer{
-    background-color: blueviolet;
+    background-color: black;
+}
+
+.contact_info > ul {
+    list-style-type: none;
 }
